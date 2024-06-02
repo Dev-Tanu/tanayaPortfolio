@@ -51,7 +51,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building an E-commerce platform with CMS",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -200,10 +200,6 @@ export const navItems = [
       id: 1,
       img: "/git.svg",
       link: "https://github.com/Dev-Tanu" ,
-    },
-    {
-      id: 2,
-      img: "/twit.svg",
     },
     {
       id: 3,
