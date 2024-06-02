@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
@@ -107,34 +109,26 @@ export const navItems = [
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Working with Tanaya was a seamless and rewarding experience. Her in-depth knowledge of both front-end and back-end development, combined with a keen eye for detail, ensured our project met the highest standards.Her ability to integrate complex functionalities while maintaining a user-friendly interface was particularly impressive.",
+      name: "Revati",
+      title: "UI/UX Developer",
+      img: "/revati2.jpg",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Tanaya brought an exceptional level of expertise and creativity to our project. Her mastery of full stack development, along with her sharp focus on user experience, made a significant impact on the final product. Her collaborative spirit and commitment to excellence were evident throughout our collaboration",
+      name: "Adinath Shelke",
+      title: "Full Stack developer ",
+      img: "/adi3.jpg",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Tanaya was an absolute delight. Her proficiency in both front-end and back-end development, resulted in a project that exceeded our expectations.Tanaya has a remarkable talent for merging sophisticated functionalities with an intuitive user experience. Her proactive communication and dedication to the project were commendable.",
+      name: "Kalyani Joshi",
+      title: "Freelancer",
+      img: "/kalyani.jpg",
     },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
+    
   ];
   
   export const companies = [
@@ -173,22 +167,22 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "React developer Intern",
+      desc: "Built seamless and functional web-based platform using React.js, enhancing interactivity.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+      title: "Web Developer Intern",
+      desc: "Designed and Developed company's website as web developer intern at inspirizon",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
       title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      desc: "collaborated for the dev of a mobile app for a client, from initial concept to deployment on app stores.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
@@ -205,6 +199,7 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/Dev-Tanu" ,
     },
     {
       id: 2,
@@ -213,5 +208,6 @@ export const navItems = [
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/tanaya-morgaonkar-6a2a77218",
     },
   ];
